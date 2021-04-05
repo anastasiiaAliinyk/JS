@@ -1,4 +1,5 @@
 'use strict';
+
 import list from '../list.json';
 
 function createRandomArray() {
