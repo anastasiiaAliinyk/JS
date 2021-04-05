@@ -1,4 +1,7 @@
-# Base layout template with Gulp, SCSS and Stylelint
-1. Create a repo using this template
-1. Replace `<your_account>` and `<repo_name>` with your Github username and the new repo name
-    - [DEMO LINK](https://<your_account>.github.io/<repo_name>/)
+1. Generate an array of random unique letters, quantity should be equal to 5. (not manual, generate with JS).
+2. Append generated array into html select as separate options.
+3. When user select any option, show list of names from list.json file where the first letter matches with selected option.
+
+NOTE: After each page refresh the array of unique letters must be different.
+
+[DEMO LINK](https://anastasiiaaliinyk.github.io/JS/)
