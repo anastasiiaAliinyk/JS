@@ -4,4 +4,4 @@
 
 NOTE: After each page refresh the array of unique letters must be different.
 
-[DEMO LINK](https://anastasiiaaliinyk.github.io/JS/)
+[DEMO LINK](https://anastasiiaaliinyk.github.io/Js_task/)
