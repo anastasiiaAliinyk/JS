@@ -3,10 +3,18 @@
 import list from '../list.json';
 
 function createRandomArray() {
-  const randomString = Math.random().toString(36).replace(/[^a-z]+/g, '').substr(0, 5);
-  const randomListLetters = randomString.split('');
+  let randomString = '';
 
-  return randomListLetters;
+  while (randomString.length < 5) {
+    const randomChar = Math.random().toString(36)
+      .replace(/[^a-z]+/g, '').substr(0, 1);
+
+    if (!randomString.includes(randomChar)) {
+      randomString += randomChar;
+    }
+  };
+
+  return randomString.split('');
 }
 
 function createSelect (letterList) {
